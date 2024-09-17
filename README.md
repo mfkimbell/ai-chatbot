@@ -1,6 +1,12 @@
 
 # ai-chatbot
 
+## Architecture
+
+<img src="https://github.com/user-attachments/assets/39e486dd-45d0-4140-a7b3-407c903bd235" alt="Chatbot Architecture" width="800">
+
+
+
 ## Tools Used
 
 * `LangChain` - Library for building language model chains and managing conversation memory.
