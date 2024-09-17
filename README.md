@@ -28,7 +28,12 @@ In the context of AI prompting, the following parameters are important:
 
 To test the application locally, follow these steps:
 
-1. **Pull the Docker Image:**
+1 **Clone the repo**
+```bash
+git clone https://github.com/mfkimbell/ai-chatbot.git
+```
+
+2. **Pull the Docker Image:**
 
     ```bash
     docker pull mfkimbell/ai-chatbot:latest
