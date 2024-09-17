@@ -42,24 +42,19 @@ git clone https://github.com/mfkimbell/ai-chatbot.git
 2. **Run the Docker Container:**
 
     ```bash
-    docker run --env-file .env -p 8501:8501 ai-chatbot:latest
+    docker run --env-file .env -p 8501:8501 mfkimbell/ai-chatbot:latest
     ```
 
     Ensure that you have a `.env` file with the necessary environment variables.
 
-  
 `AWS_ACCESS_KEY_ID`
 `AWS_SECRET_ACCESS_KEY`
 `AWS_DEFAULT_REGION`
 
-### Additional Notes
+3. **Access Webapp**
 
-Streamlit is particularly useful for data science since you can quickly build a frontend for proof of concept.
+   ```http://0.0.0.0:8501/```
+   or
+   ```http://localhost:8501/```
 
-"""
 
-# Write the content to README.md
-with open("README.md", "w") as file:
-    file.write(readme_content)
-
-print("README.md file has been created successfully.")
