@@ -7,6 +7,7 @@
 * `ChatBedrock` - LangChain module for integrating with AWS Bedrock for LLM interactions.
 * `Streamlit` - Framework for building interactive web applications (particularly in data science)
 * `Docker` - Containerization platform used for running the application locally.
+* `Claude-3-haiku` - Large language model used
 
 ## Prompt Demo
 
