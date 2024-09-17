@@ -34,6 +34,8 @@ In the context of AI prompting, the following parameters are important:
 
 * **Temperature** - The temperature parameter controls the randomness of the output. A lower temperature (e.g., 0.1) makes the output more deterministic and less diverse, while a higher temperature (e.g., 1.0) increases the randomness, allowing for more diverse and creative responses. Adjusting the temperature helps in balancing between creativity and coherence in the AI’s responses.
 
+* **Stop Sequence** - In chatbots and AI text generation, a stop sequence or stop word marks a point in the conversation where the AI pauses and awaits user input, ensuring interactive and user-driven dialogue flow. In this case, our stop sequence is `["\n\nHuman:"]` since we want the user to fill in that part of the conversation.
+
 ### Local Testing
 
 To test the application locally, follow these steps:
