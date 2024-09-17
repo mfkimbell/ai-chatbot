@@ -36,13 +36,13 @@ git clone https://github.com/mfkimbell/ai-chatbot.git
 2. **Pull the Docker Image:**
 
     ```bash
-    docker pull mfkimbell/ai-chatbot:latest
+    docker pull mfkimbell/ai-chatbot:newversion
     ```
 
 2. **Run the Docker Container:**
 
     ```bash
-    docker run --env-file .env -p 8501:8501 mfkimbell/ai-chatbot:latest
+    docker run --env-file .env -p 8501:8501 mfkimbell/ai-chatbot:newversion
     ```
 
     Ensure that you have a `.env` file with the necessary environment variables.
