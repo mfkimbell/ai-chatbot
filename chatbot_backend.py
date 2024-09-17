@@ -1,7 +1,6 @@
 #Steps
 
-# need to use aws configure for this to connect to langchain_aws
-
+# need to use aws configure for this
 #1 import the ConversationSummaryBufferMemory, ConversationChain, ChatBedrock (BedrockChat) Langchain Modules
 from langchain.chains import ConversationChain
 from langchain.memory import ConversationSummaryBufferMemory
