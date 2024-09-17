@@ -8,11 +8,14 @@
 * `Streamlit` - Framework for building interactive web applications (particularly in data science)
 * `Docker` - Containerization platform used for running the application locally.
 
-## Setup and Usage
+## Prompt Demo
 
-### Opening VSCode
+![2-ezgif com-speed](https://github.com/user-attachments/assets/1238726b-141d-422b-8416-9bf1e5ecc360)
 
-You need to open VSCode through Anaconda or Streamlit will not function properly.
+## Memory Demo
+
+![Memoryexample-ezgif com-speed](https://github.com/user-attachments/assets/cb43815c-72d9-458d-91e0-bfd2bc088b4e)
+
 
 ### AI Prompting Parameters
 
